@@ -72,11 +72,10 @@ export default function CreateMix({ sabores }) {
             .then((response) => {
                 setTimeout(() => {
                     navigate("/");
-                }, 1000)
+                }, 3000)
             })
             .catch((error) => console.error(error));
     }
-
 
     return (
         <>
