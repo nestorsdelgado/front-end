@@ -1,6 +1,8 @@
 import axios from "axios"
 import { BACK_API } from "."
 
+//const BACK_API = 'https://shishablog.onrender.com/'
+
 export const API_URL = async () => {
     return BACK_API
 }

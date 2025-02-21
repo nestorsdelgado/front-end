@@ -67,7 +67,7 @@ const Account = () => {
 
     return (
         <div className="account-container">
-            <h2>Your Mixes</h2>
+            <h2>My Mixes</h2>
             <div className="bloques">
                 {mezclas.length === 0 ? (
                     <p>No mezclas found.</p>

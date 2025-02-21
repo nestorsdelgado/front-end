@@ -25,7 +25,7 @@ export default function Sidebar() {
                 </li>
                 <li className="nav-text">
                     <Link to="/account" end className={({ isActive }) => `nav-text ${isActive ? 'active' : ''}`}>
-                        <AiIcons.AiOutlineInfoCircle /> <span className="nav-link-text">My Account</span>
+                        <AiIcons.AiOutlineInfoCircle /> <span className="nav-link-text">My Mixes</span>
                     </Link>
                 </li>
             </ul>
