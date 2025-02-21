@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+:root {
+  /* Paleta de colores en tonos pastel inspirados en la naturaleza */
+  --primary-color: #6d8b74; /* Navbar & sidebar */
+  --secondary-color: #a3b18a; /* Headers */
+  --muted-color: #dde5b6; /* Borders & Dividers */
+  --light-grey: #f0ead2; /* Button background */
+  --lighter-grey: #fefae0; /* Footer & cards */
+  --background-light: #e9edc9; /* Main content background */
+  --text-color: #3a5a40; /* Main Text for Articles & Posts */ 
+  --text-light: #d4a373; /* Soft Beige */
+  --text-muted: #b5c99a; /* Soft Green */
+  --accent-color: #a98467; /* Buttons, Links, Call-to-Action Elements */
+  --background-color: #fefae0; /* Overall Background*/
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.Error,
+.Account {
+  display: flex;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background: var(--background-color);
+  color: var(--text-color)
+}

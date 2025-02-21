@@ -1,0 +1,42 @@
+.CreateMix {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: top;
+    font-size: 3rem;
+    background: var(--background-color);
+    color: var(--text-color);
+    padding: 30px;
+    height: 130vh;
+    z-index: 10;
+    max-width: 100%;
+}
+
+.textField .MuiOutlinedInput-root {
+    width: 500px;
+    margin: 8px;
+}
+
+.textField > label {
+    left: 9px;
+    top: 9px;
+}
+
+
+.selector {
+    width: 500px;
+    margin: 8px;
+}
+
+.inputs-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectorList {
+    margin: 8px;
+    width: 500px;
+}
+
+  

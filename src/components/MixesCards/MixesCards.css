@@ -1,0 +1,8 @@
+.MixesCard {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+  }
